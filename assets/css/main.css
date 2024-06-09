@@ -2454,8 +2454,13 @@ input, select, textarea {
 			list-style:none;
 			line-height:150%
 		}
-			ul.ul-papers li{font-size:1.0rem;
-					padding:30px 0px 0px 0px
+			ul.ul-papers li{
+				display: flex;
+				
+				<!--
+				font-size:1.0rem;
+				padding:30px 0px 0px 0px
+				-->
 			}
 			ul.ul-papers li .img{
 				float: left;

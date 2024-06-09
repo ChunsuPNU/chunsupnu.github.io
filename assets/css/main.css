@@ -2450,6 +2450,59 @@ input, select, textarea {
 					border-top: 0;
 					padding-top: 0;
 				}
+		ul.ul-papers {
+			list-style:none;
+			line-height:150%
+		}
+			ul.ul-papers li{font-size:1.0rem;
+					padding:30px 0px 0px 0px
+			}
+			ul.ul-papers li .img{
+				max-width:300px;
+				height:auto;
+				padding-right:10px;
+				padding-top:0px;
+				vertical-align:top
+			}
+			ul.ul-papers li .description p{
+				margin:0 auto;
+				padding-left:5px;
+				padding-right:10px;
+				text-align:left
+			}
+			ul.ul-papers li .description p.title{
+				font-weight:bold
+			}
+			ul.ul-papers li .description p.venue{
+				font-weight:bold
+			}
+			ul.ul-papers li .description p.authors{
+				font-weight:bold
+			}
+			ul.ul-papers li .description p.emph{
+				font-weight:bold;color:#BB2222
+			}
+			@media only screen and (max-width: 768px){
+				div.img{
+					display:none
+				}
+			}
+			@media only screen and (min-width: 769px) and (max-width: 927px){
+				ul.ul-papers li .img{
+					max-width:200px
+				}
+				ul.ul-papers div{
+					display:inline-block
+				}
+			}
+			@media only screen and (min-width: 769px){
+				ul.ul-papers li .img{
+					max-width:200px
+				}
+				ul.ul-papers div{
+					display:inline-block
+				}
+			}
 
 	dl {
 		margin: 0 0 2em 0;

@@ -2458,12 +2458,14 @@ input, select, textarea {
 					padding:30px 0px 0px 0px
 			}
 			ul.ul-papers li .img{
+				float: left;
 				max-width:300px;
 				height:auto;
 				padding-right:10px;
 				padding-top:0px;
 				vertical-align:top
 			}
+				
 			ul.ul-papers li .description p{
 				margin:0 auto;
 				padding-left:5px;
